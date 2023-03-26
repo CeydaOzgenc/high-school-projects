@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	min-height:100% 100%;
+}
+body {
+	background:url(../img/bg.png) no-repeat;
+	background-size:100% 100%;
+}
+.main {
+	width:950px;
+	height:500px;
+	/*background-color:#ccc;*/
+	box-sizing:border-box;
+	margin:120px auto;
+}
+
+#header {
+	width:100%;
+	height:100px;
+	background-color:#243551;
+	box-sizing:border-box;
+	border:5px solid #000;
+	border-radius:40px;
+	box-shadow:8px 6px 81px 13px rgba(0,0,0,0.75);
+	padding:20px;
+}
+#content {
+	width:100%;
+	height:400px;
+	/*background-color:#369;*/
+	box-sizing:border-box;
+	padding-left:85px;
+	padding-top:20px;
+}
+
+#kutu1 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/21.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+}
+
+#kutu1:hover {
+	transform:rotate(60deg)scale(1.4);
+}
+
+#kutu2 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/22.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+}
+
+#kutu2:hover {
+	transform:perspective(400px) rotate3d(1,1,0,180deg);
+	background-image:url(../img/24.jpg);
+}
+
+
+#kutu3 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/19.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+}
+
+#kutu3:hover {
+	transform:perspective(400px) rotate3d(1,1,0,180deg);
+	background-image:url(../img/24.jpg);
+}
+
+#kutu4 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/25.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+}
+
+#kutu4:hover {
+	transform:perspective(400px) rotate3d(1,1,0,180deg);
+	background-image:url(../img/24.jpg);
+}
+
+#kutu5 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/26.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+	
+}
+
+#kutu5:hover {
+	transform:perspective(400px) rotate3d(1,1,0,180deg);
+	background-image:url(../img/24.jpg);
+}
+
+
+
+#kutu6 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/27.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+	
+}
+
+#kutu6:hover {
+	transform:perspective(400px) rotate3d(1,1,0,180deg);
+	background-image:url(../img/24.jpg);
+}
+
+#kutu7 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/28.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+	
+}
+
+#kutu7:hover {
+	transform:perspective(400px) rotate3d(1,1,0,180deg);
+	background-image:url(../img/24.jpg);
+}
+
+#kutu8 {
+	width:150px;
+	height:150px;
+	background-color:#eee;
+	border-radius:150px;
+	display:inline-block;
+	margin:20px;
+	background-image:url(../img/29.jpg);
+	box-shadow:10px 10px 23px 0px rgba(0,0,0,0.75);
+	background-repeat:no-repeat;
+	transition:all .8s ease-in-out;
+}
+
+#kutu8:hover {
+	transform:perspective(400px) rotate3d(1,1,0,180deg);
+	background-image:url(../img/24.jpg);
+}
+
+#header ul {
+	list-style:none;
+	float:right;
+}
+
+
+#header ul li{
+	display:inline;
+	
+}
+
+#header ul li a{
+	color:#FFF7B8;
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:10px;
+}
+	
+#header ul li a:hover{
+	background-color:#999CA7;
+	border-radius:5px;
+	
+	
+}
+
+#sosical {
+	position:fixed;
+	top:200px;
+	left:-25px;
+	width:100px;
+	height:300px;
+	background-color:#bbb;
+}

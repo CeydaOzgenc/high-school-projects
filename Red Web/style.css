@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	 background-image:url(image/content_bottom.jpg);
+	 background-repeat:repeat;
+	}
+	#ustbolum{
+		width:100%;
+		height:455px;
+		background-image:url(image/body.jpg);
+		}
+	#kapsayici{
+		width:970px;
+		height:450px;
+		margin-left:auto;
+		margin-right:auto;
+		}
+	#header{
+	background-image:url(image/header.jpg);
+	width:100%;
+	height:75px;
+	color:#FFF;
+	padding-top:20px;
+	text-align:center;
+	font-size:14px;
+	font-weight:100;
+    	}
+	#header h6{
+	background-image:url(image/header.jpg);
+	color:#FFF;
+	text-align:center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	font-style:italic;
+	font-weight:100;
+	margin-bottom:-11px;
+    	}
+		#menu_slider{
+			    width:100%;
+			    height:357px;
+				background-repeat:no-repeat;
+			}
+			#menu{
+				width:230px;
+				height:357px;
+				background-image:url(image/menu.jpg);
+				float:left;
+			}
+			#menu ul{
+                list-style-type:none;
+				border-left-style:;
+				margin-left:90px;
+				margin-top:40px;
+			}
+			#menu ul a{
+				text-decoration:none;
+				color:#4d2222;
+				font-size:20px;
+			}
+			#menu ul a:hover{
+				text-decoration:none;
+				color:#fff;
+				font-size:20px;
+			}
+			#sosyal{
+				 width:720px;
+				 height:37px;
+				 background-image:url(image/social_box.jpg);
+				 float:right;
+				 text-align:right;
+				 padding-top:13px;
+				 padding-right:20px;
+				}
+				#slider{
+					  width:740px;
+					  height:307px;
+					  float:right;
+			          background-image:url(image/content_title.jpg);
+					}
+	          #altbolum{
+             		width:100%;
+            		height:750px;
+					background-image:url(image/content_bottom.jpg);
+              		margin-left:auto;
+	             	margin-right:auto;
+	         	}
+				#altbolum #kapsayici1{
+					width:970px;
+					height:700px;
+	            	margin-left:auto;
+	            	margin-right:auto;
+					}
+				#altbolum #kapsayici1 #kapsayici2{
+					width:740px;
+					height:700px;
+					float:right;
+					background-image:url(image/content.jpg);
+					background-repeat:repeat-y;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik1{
+					width:650px;
+					margin-left:auto;
+					margin-right:auto;
+					margin-top:40px;
+					height:300px;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik1 h4{
+                      font-size:27px;
+					  font-weight:400;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik1 #yazi{
+					   width:390px;
+                       float:right;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik1 #yazi p{
+					   font-style:italic;
+					   font-size:14px;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik1 #yazi #yz{
+					   font-size:16px;
+					   font-style:normal;
+					   color:#736363;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik1 #yazi a{
+					 text-decoration:none;
+					 color:#1e82db;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik2{
+					width:300px;
+					height:300px;
+					margin-left:50px;
+                    float:left;
+					margin-top:20px;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik2 h4{
+                      font-size:27px;
+					  font-weight:400;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik2 ul{
+                      color:#6ab344;
+					  list-style-image:url(image/templatemo_list.png);
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik2 a{
+					 text-decoration:none;
+					 color:#1e82db;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik2 p{
+					   font-style:italic;
+					   font-size:14px;
+					   color:#736363;
+				}
+				#altbolum #kapsayici1 #kapsayici2 #icerik3{
+					width:250px;
+					height:300px;
+					margin-right:50px;
+                    float:right;
+					margin-top:20px;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik3 h4{
+                      font-size:27px;
+					  font-weight:400;
+					}
+				#altbolum #kapsayici1 #kapsayici2 #icerik3 p{
+					   font-style:italic;
+					   font-size:14px;
+					   color:#736363;
+					}
+				#altbolum #kapsayici1 #kapsayici3{
+					  width:230px;
+					  height:700px;
+					}
+				#altbolum #kapsayici1 #kapsayici3 #icrk1{
+					  width:210px;
+					  height:300px;
+					  padding-top:40px;
+					}
+				#altbolum #kapsayici1 #kapsayici3 #icrk1 h4{
+                      font-size:20px;
+					  font-weight:400;   				  
+					}
+				#altbolum #kapsayici1 #kapsayici3 #icrk1 b{
+                      font-size:16px;
+					  font-weight:800; 
+					  color:#1e82db; 				  
+					}
+				#altbolum #kapsayici1 #kapsayici3 #icrk1 p{
+					   font-size:16px;
+					   color:#736363;				  
+					}
+				
+					
